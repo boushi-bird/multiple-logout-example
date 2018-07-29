@@ -1,0 +1,8 @@
+spring:
+  session:
+    storeType: redis
+  redis:
+    url: ${REDIS_URL:redis://redis:6379}
+logging:
+  level:
+    root: ${LOG_LEVEL:WARN}
